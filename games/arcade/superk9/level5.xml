@@ -1,0 +1,34 @@
+<level goalx="1874" goaly="306" name="Stairway to Heaven">
+<trainer posx="70" posy="297.5" start_dir="l"/>
+<dog posx="70" posy="317.5"/>
+<background graphic="fondo_level2" startx="0" width="2912"/>
+<props>
+<wall id="wall2004" posx="200" posy="73" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8"  />
+<wall id="wall2005" posx="393" posy="73" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="5"  />
+<wall id="wall2006" posx="946" posy="73" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8"  />
+<wall id="wall2007" posx="1200" posy="73" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8"  />
+<wall id="wall2008" posx="1389" posy="1" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8"  />
+<wall id="wall2009" posx="609" posy="49" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="1"  />
+<platform id="plataforma2010" posx="134" posy="210" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2011" posx="134" posy="138" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2012" posx="134" posy="66" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="6" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2013" posx="296" posy="175" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2014" posx="212.35" posy="257.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2015" posx="529" posy="205" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2016" posx="701" posy="137" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2017" posx="870" posy="65" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2018" posx="959.35" posy="149.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2019" posx="960" posy="238" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2020" posx="1160" posy="65" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2021" posx="1291" posy="65" graphic="platform_l" size="l" speed_x="0" speed_y="4" waittime="0" turned_on="true" repeat="3" onetimer="false" end_x="1291" end_y="230"  />
+<platform id="plataforma2023" posx="525" posy="65" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+</props>
+<badboys>
+<faller id="faller2022" posx="1600" posy="14.95" graphic="drop" damage="20" damage_type="acid" waittime="15"  />
+<faller id="faller2023" posx="1750" posy="14.95" graphic="drop" damage="20" damage_type="acid" waittime="15"  />
+<static id="statics2025" posx="1538.35" posy="309.175" graphic="fire" damage="20" damage_type="fire"  />
+<static id="statics2026" posx="1711.35" posy="309.175" graphic="fire" damage="20" damage_type="fire"  />
+</badboys>
+<switchs>
+</switchs>
+</level>

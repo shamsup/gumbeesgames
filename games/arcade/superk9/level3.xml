@@ -1,0 +1,55 @@
+<level goalx="1900" goaly="43" name="Leap of Faith">
+<trainer posx="70" posy="297.5" start_dir="l"/>
+<dog posx="70" posy="317.5"/>
+<background graphic="fondo_level2" startx="0" width="1456"/>
+<tips>
+<tip id = "01" posx = "200" posy="184">
+Think like a Fireman!
+</tip>
+</tips>
+<props>
+<wall id="other" posx="1969" posy="-54" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="12" end_x="0" end_y="0"  />
+<wall id="wall2004" posx="311" posy="-433" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="7"  />
+<wall id="wall2005" posx="1116" posy="-22" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8"  />
+<wall id="movil_002b" posx="1116" posy="234" graphic="wall2" speed_x="0" speed_y="-5" waittime="0" turned_on="false" onetimer="true" repeat="3" end_x="1116" end_y="160"  />
+<wall id="wall2028" posx="1369.35" posy="74" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8" end_x="0" end_y="0"  />
+<wall id="pared" posx="1616.35" posy="74" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8" end_x="0" end_y="0"  />
+<platform id="other2" posx="382" posy="-162" graphic="platform_l" size="l" speed_x="0" speed_y="3" waittime="0" turned_on="false" repeat="3" onetimer="false" end_x="482" end_y="78"  />
+<platform id="other3" posx="1876.35" posy="67.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2007" posx="283" posy="73" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2008" posx="678" posy="73" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2009" posx="411" posy="155" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2010" posx="411" posy="242" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2011" posx="1065" posy="73" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2012" posx="382" posy="-162" graphic="platform_l" size="l" speed_x="0" speed_y="3" waittime="0" turned_on="false" repeat="3" onetimer="false" end_x="482" end_y="78"  />
+<platform id="movil_001" posx="576" posy="73" graphic="platform_l2" size="l" speed_x="0" speed_y="6" waittime="50" turned_on="false" repeat="3" onetimer="false" end_x="576" end_y="229"  />
+<platform id="plataforma2015" posx="283" posy="105" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2017" posx="283" posy="137" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2018" posx="283" posy="169" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2021" posx="155" posy="201" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="8" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2020" posx="155" posy="233" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="8" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2016" posx="155" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="8" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2019" posx="155" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="8" onetimer="true" end_x="0" end_y="0"  />
+<platform id="movil_002c" posx="962" posy="73" graphic="platform_l2" size="l" speed_x="0" speed_y="-5" waittime="35" turned_on="false" repeat="3" onetimer="false" end_x="962" end_y="200"  />
+<platform id="movil_002" posx="1182" posy="297" graphic="platform_l2" size="l" speed_x="0" speed_y="-3" waittime="0" turned_on="false" repeat="3" onetimer="false" end_x="1182" end_y="120"  />
+<platform id="plataforma2027" posx="1294" posy="70" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2029" posx="1380.35" posy="163.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2030" posx="1380.35" posy="249.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2032" posx="1573" posy="70" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2033" posx="1625" posy="163" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2034" posx="1625" posy="250" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+</props>
+<badboys>
+<static id="statics2023" posx="438" posy="309.175" graphic="fire" damage="20" damage_type="fire"  />
+</badboys>
+<switchs>
+<switch id="pal_001" posx="741" posy="57" dir="l" graphic="switch"  >
+<triggers obj_id = "movil_001" />
+</switch>
+<switch id="pal_002" posx="1111.35" posy="41.95" dir="l" graphic="switch"  >
+<triggers obj_id = "movil_002" />
+<triggers obj_id = "movil_002b" />
+<triggers obj_id = "movil_002c" />
+</switch>
+</switchs>
+</level>

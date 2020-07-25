@@ -1,0 +1,49 @@
+<level goalx="2161" goaly="306" name="Fire in the hole!">
+<trainer posx="70" posy="297.5" start_dir="l"/>
+<dog posx="70" posy="317.5"/>
+<background graphic="fondo_level2" startx="0" width="2912"/>
+<tips>
+<tip id = "01" posx = "100" posy="315">
+This Guy won't
+jump for himself,
+you know?
+</tip>
+<tip id = "02" posx = "1900" posy="152">
+Is It raining bricks again?
+I wonder...
+What could I use to protect my head?
+</tip>
+</tips>
+<props>
+<wall id="wall2004" posx="2200" posy="-22" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="11"  />
+<wall id="wall2005" posx="1210" posy="-28" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="9" end_x="0" end_y="0"  />
+<wall id="wall2006" posx="1547" posy="138" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="6" end_x="0" end_y="0"  />
+<platform id="plataforma2008" posx="254" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2007" posx="190" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="6" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2010" posx="461" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2009" posx="461" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2011" posx="704" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2012" posx="704" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2017" posx="1850" posy="169" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2016" posx="1850" posy="201" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2015" posx="1850" posy="233" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="5" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2014" posx="1850" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="6" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2013" posx="1850" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="7" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2020" posx="977" posy="233" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2019" posx="977" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2018" posx="977" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2021" posx="1214" posy="228" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="7" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2022" posx="1335" posy="123" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="7" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2025" posx="1547" posy="233" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2024" posx="1547" posy="265" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="7" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2023" posx="1547" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="7" onetimer="true" end_x="0" end_y="0"  />
+</props>
+<badboys>
+<static id="statics2026" posx="649" posy="309" graphic="fire" damage="20" damage_type="fire"  />
+<static id="statics2027" posx="892" posy="309" graphic="fire" damage="20" damage_type="fire"  />
+<static id="statics2028" posx="949" posy="309" graphic="fire" damage="20" damage_type="fire"  />
+<faller id="faller2029" posx="2100" posy="7" graphic="brick" damage="20" damage_type="above_hit" waittime="15"  />
+</badboys>
+<switchs>
+</switchs>
+</level>

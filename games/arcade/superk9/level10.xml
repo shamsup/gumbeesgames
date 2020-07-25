@@ -1,0 +1,55 @@
+<level goalx="1939" goaly="31" name="Tricky road">
+<trainer posx="70" posy="297.5" start_dir="l"/>
+<dog posx="70" posy="317.5"/>
+<background graphic="fondo_level2" startx="0" width="2912"/>
+<props>
+<wall id="wall2006" posx="563" posy="106" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="7" end_x="0" end_y="0"  />
+<wall id="wall2013" posx="-1" posy="-27" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="8" end_x="0" end_y="0"  />
+<wall id="puerta_001" posx="120" posy="-31" graphic="wall2" speed_x="0" speed_y="-5" waittime="0" turned_on="false" onetimer="true" repeat="4" end_x="120" end_y="-100"  />
+<wall id="wall2041" posx="1366" posy="106" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="7" end_x="0" end_y="0"  />
+<wall id="wall2043" posx="1851" posy="-124" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="12" end_x="0" end_y="0"  />
+<wall id="wall2045" posx="1989" posy="-150" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="15" end_x="0" end_y="0"  />
+<platform id="plataforma2004" posx="-1" posy="228" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="15" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2007" posx="120" posy="98" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="15" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2021" posx="572.45" posy="177.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2022" posx="572.45" posy="257.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2030" posx="744" posy="120" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2031" posx="875.45" posy="100.95" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2032" posx="1010" posy="122" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2036" posx="1137.45" posy="77.95" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2039" posx="1278.45" posy="74.95" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="6" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2044" posx="1863" posy="55.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2046" posx="1863" posy="139.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2047" posx="1863" posy="221.95" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2048" posx="1926" posy="268" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="2" onetimer="true" end_x="0" end_y="0"  />
+</props>
+<badboys>
+<static id="statics2016" posx="229" posy="82" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2017" posx="349" posy="82" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2018" posx="458.45" posy="82" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2019" posx="597" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2023" posx="649" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2024" posx="705" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2025" posx="759.45" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2026" posx="815" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2027" posx="875" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2028" posx="935" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2029" posx="995" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2033" posx="1051.45" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2034" posx="1110.45" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2035" posx="1163" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2037" posx="1222.45" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2038" posx="1281.45" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2040" posx="1335" posy="315" graphic="spikes" damage="20" damage_type="fall"  />
+<static id="statics2049" posx="1598.45" posy="309.95" graphic="fire" damage="10" damage_type="fire"  />
+<static id="statics2050" posx="1403" posy="310" graphic="fire" damage="10" damage_type="fire"  />
+<static id="statics2051" posx="1453.45" posy="308.95" graphic="fire" damage="10" damage_type="fire"  />
+<patroller id="patroller2005" posx="2089" posy="293" graphic="bird" damage="20" damage_type="side" oneway="true" speed_x="25" end_x="0"  />
+<patroller id="patroller2008" posx="2549" posy="194" graphic="bird" damage="20" damage_type="side" oneway="false" speed_x="25" end_x="0"  />
+</badboys>
+<switchs>
+<switch id="pal_001" posx="18" posy="189" dir="r" graphic="switch"  >
+<triggers obj_id = "puerta_001" />
+</switch>
+</switchs>
+</level>

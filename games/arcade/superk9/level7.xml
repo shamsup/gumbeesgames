@@ -1,0 +1,76 @@
+<level goalx="2562" goaly="50" name="Beware of the Dog">
+<trainer posx="70" posy="297.5" start_dir="l"/>
+<dog posx="70" posy="317.5"/>
+<background graphic="fondo_level2" startx="0" width="2912"/>
+<props>
+<wall id="wall2004" posx="257" posy="-21" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="3" end_x="0" end_y="0"  />
+<wall id="puerta_001" posx="257" posy="72" graphic="wall2" speed_x="0" speed_y="-5" waittime="0" turned_on="false" onetimer="true" repeat="3" end_x="257" end_y="-17"  />
+<wall id="wall2006" posx="596" posy="207" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="3" end_x="0" end_y="0"  />
+<wall id="wall2040" posx="1664" posy="138" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="6" end_x="0" end_y="0"  />
+<wall id="wall2045" posx="2642.35" posy="-54" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="12" end_x="0" end_y="0"  />
+<wall id="wall2046" posx="2506" posy="-1" graphic="wall" speed_x="0" speed_y="0" waittime="0" turned_on="false" onetimer="true" repeat="7" end_x="0" end_y="0"  />
+<platform id="plataforma2007" posx="128" posy="297" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="15" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2008" posx="257" posy="170" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="12" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2009" posx="257" posy="196" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="12" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2010" posx="1500" posy="114" graphic="platform_l" size="l" speed_x="3" speed_y="0" waittime="20" turned_on="true" repeat="4" onetimer="false" end_x="1200" end_y="114"  />
+<platform id="plataforma2011" posx="700" posy="114" graphic="platform_l" size="l" speed_x="3" speed_y="0" waittime="20" turned_on="true" repeat="4" onetimer="false" end_x="1000" end_y="114"  />
+<platform id="plataforma2028" posx="1638" posy="300" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2029" posx="1638" posy="200" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="1" onetimer="true" end_x="0" end_y="0"  />
+<platform id="plataforma2041" posx="1662" posy="114" graphic="platform_l" size="l" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="3" onetimer="true" end_x="0" end_y="0"  />
+<platform id="movil_003" posx="1769" posy="114" graphic="platform_l2" size="l" speed_x="0" speed_y="2" waittime="50" turned_on="false" repeat="3" onetimer="false" end_x="1769" end_y="220"  />
+<platform id="plataforma2048" posx="2516" posy="73" graphic="platform_s" size="s" speed_x="0" speed_y="0" waittime="0" turned_on="false" repeat="4" onetimer="true" end_x="0" end_y="0"  />
+<platform id="movil_002" posx="2568" posy="232" graphic="platform_l2" size="l" speed_x="0" speed_y="-5" waittime="25" turned_on="false" repeat="2" onetimer="false" end_x="2568" end_y="100"  />
+<prop id="prop2012" posx="623" posy="318.05" graphic="emitter" collide="false"  />
+<prop id="prop2013" posx="1562" posy="318" graphic="emitter" collide="false"  />
+</props>
+<badboys>
+<saw id="saw2026" posx="275" posy="275" graphic="saw" damage="20" damage_type="saw" waittime_down="35" waittime_up="20"  />
+<saw id="saw2027" posx="350" posy="275" graphic="saw" damage="20" damage_type="saw" waittime_down="35" waittime_up="20"  />
+<saw id="saw2028" posx="425" posy="275" graphic="saw" damage="20" damage_type="saw" waittime_down="35" waittime_up="20"  />
+<saw id="saw2029" posx="500" posy="275" graphic="saw" damage="20" damage_type="saw" waittime_down="35" waittime_up="20"  />
+<static id="statics2014" posx="656" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2015" posx="695" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2016" posx="734" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2017" posx="773" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2018" posx="812" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2019" posx="851" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2020" posx="890" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2021" posx="929" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2022" posx="968" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2023" posx="1007" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2024" posx="1046" posy="316" graphic="electricity" damage="20" damage_type="electro"  />
+<static id="statics2025" posx="1084" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2026" posx="1120" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2027" posx="1157" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2028" posx="1194" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2029" posx="1232" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2030" posx="1270" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2031" posx="1308" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2032" posx="1345" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2033" posx="1384" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2034" posx="1423" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2035" posx="1462" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2036" posx="1499" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<static id="statics2037" posx="1537" posy="316" graphic="electricity" damage="15" damage_type="electro"  />
+<patroller id="patroller2038" posx="327" posy="157" graphic="baddog" damage="20" damage_type="dog" oneway="false" speed_x="4" end_x="500"  />
+<patroller id="patroller2042" posx="1900" posy="316" graphic="baddog" damage="20" damage_type="dog" oneway="false" speed_x="5" end_x="2200"  />
+<patroller id="patroller2044" posx="2240" posy="316" graphic="baddog" damage="20" damage_type="dog" oneway="false" speed_x="5" end_x="2500"  />
+</badboys>
+<switchs>
+	<switch id="pal_001" posx="591.4" posy="273.95" dir="l" graphic="switch"  >
+		<triggers obj_id = "puerta_001" />
+	</switch>
+	<switch id="pal_002" posx="2500.35" posy="208.95" dir="l" graphic="switch"  >
+		<triggers obj_id = "movil_002" />
+	</switch>
+	<switch id="pal_003" posx="1697" posy="95" dir="l" graphic="switch"  >
+		<triggers obj_id = "movil_003" />
+	</switch>
+</switchs>
+</level>
+
+
+
+
+
+

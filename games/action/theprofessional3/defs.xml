@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" ?>
+<data>
+	<!-- time_alarm: in seconds -->
+	<game base_y="360" time_alarm="25">
+		<weapons>
+			<weapon id="pistol" type="pistol" is_projectile="0" noise="0" ammo_per_clip="7" clips="12" damage="50" accuracy="90" reach="300" />	
+			<weapon id="enemypistol" type="pistol" is_projectile="0" ammo_per_clip="9" clips="10" damage="20" accuracy="70" reach="310" />
+			<weapon id="enemySMG" type="SMG" is_projectile="0" ammo_per_clip="30" clips="10" damage="20" accuracy="50" reach="310" />
+			<weapon id="enemypistolBoss" type="pistol" is_projectile="0" ammo_per_clip="9" clips="10" damage="20" accuracy="80" reach="600" />
+			<weapon id="smg" type="SMG" is_projectile="0" noise="1" ammo_per_clip="30" clips="5" damage="45" accuracy="100" reach="350" />
+			<weapon id="knife" type="knife" is_projectile="1" ammo_per_clip="15" clips="-1" damage="50" />
+		</weapons>
+		<player type="player" posx="320" posy="base" speed="8" dir="r">
+			<state type="idle" frame_name="idle_pistol"/>
+			<state type="idle" frame_name="idle_smg"/>
+			<state type="idle" frame_name="idle_crouch_smg"/>
+			<state type="idle" frame_name="idle_crouch_pistol"/>
+			<state type="walk" frame_name="walk_pistol"/>
+			<state type="walk" frame_name="walk_smg"/>
+			<state type="run" frame_name="run_pistol"/>
+			<state type="run" frame_name="run_smg"/>
+			<state type="dead" frame_name="dead"/>
+			<state type="crouch" frame_name="crouch_pistol"/>
+			<state type="crouch" frame_name="crouch_smg"/>
+			<state type="standUp" frame_name="stand_up_pistol"/>
+			<state type="standUp" frame_name="stand_up_smg"/>
+			<state type="reload" frame_name="reload_pistol"/>
+			<state type="reload" frame_name="reload_smg"/>
+			<state type="reload" frame_name="reload_crouch_pistol"/>
+			<state type="reload" frame_name="reload_crouch_smg"/>
+			<state type="hide" frame_name="hide_pistol"/>
+			<state type="hide" frame_name="hide_smg"/>
+			<state type="hit" frame_name="hit_pistol"/>
+			<state type="hit" frame_name="hit_smg"/>
+			<state type="hit" frame_name="hit_crouch_pistol"/>
+			<state type="hit" frame_name="hit_crouch_smg"/>
+			<state type="upShot" frame_name="up_shot_pistol"/>
+			<state type="upShot" frame_name="up_shot_smg"/>
+			<state type="use" frame_name="use"/>
+			<state type="dead" frame_name="dead_pistol"/>
+			<state type="goInside" frame_name="go_inside_pistol"/>
+			<state type="goInside" frame_name="go_inside_smg"/>
+			<state type="goOutside" frame_name="go_outside_pistol"/>
+			<state type="goOutside" frame_name="go_outside_smg"/>
+			<state type="attack" frame_name="attack_pistol" />
+			<state type="attack" frame_name="attack_smg" />
+			<state type="attack" frame_name="attack_knife"/>
+			<state type="attack" frame_name="attack_crouch_pistol"/>
+			<state type="attack" frame_name="attack_crouch_smg"/>
+			<state type="attack" frame_name="attack_broke_neck"/>
+			<weapon id="pistol" clips="10"/>
+			<weapon id="smg" clips="2"/>
+			<weapon id="knife" clips="0"/>
+		</player>
+		<!-- enemy type can be light, medium, hard 
+			id=name of the enemy
+			line_of_sight = how far it sees
+			skin = mc of the animation
+		-->
+		<enemy id="boss" type="boss" range_patrol="200" range_search="300" range_ear="300" 
+		speed="3" line_of_sight="500" skin="boss" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="search" frame_name="search"/>
+			<state type="idle" frame_name="idle_crouch"/>
+			<state type="attack" frame_name="attack_kick"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="reload" frame_name="reload_crouch"/>
+			<state type="crouch" frame_name="crouch"/>
+			<state type="standUp" frame_name="stand_up" />
+			<state type="hit" frame_name="hit"/>
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemypistolBoss" clips="-1" />
+		
+		</enemy>
+		
+			
+	
+		<enemy id="light_01" type="light" range_patrol="500" range_search="750" range_ear="400" 
+		speed="3" line_of_sight="200" skin="light1" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="patrol" frame_name="patrol"/>
+			<state type="search" frame_name="search"/>
+			<state type="walkAttack" frame_name="walk_attack"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="distracted" frame_name="distracted" />
+			<state type="stop" frame_name="stop" />
+			<state type="turn" frame_name="turn" />
+			<state type="goInside" frame_name="go_inside" />
+			<state type="goOutside" frame_name="go_outside" />
+			<state type="aim" frame_name="aim" />
+			<state type="alarm" frame_name="alarm" />
+			<state type="hit" frame_name="hit"/>
+			<state type="hit" frame_name="hit_aim"/>
+			<state type="run" frame_name="run" />
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemypistol" clips="-1" />
+			<!--<weapon type="pistol" rounds="9" damage="10" accuracy="50" speed="" />-->
+			
+		</enemy>
+		
+		<enemy id="light_02" type="light" range_patrol="300" range_search="400" range_ear="350" 
+		speed="3" line_of_sight="250" skin="light2" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="patrol" frame_name="patrol"/>
+			<state type="search" frame_name="search"/>
+			<state type="walkAttack" frame_name="walk_attack"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="distracted" frame_name="distracted" />
+			<state type="stop" frame_name="stop" />
+			<state type="turn" frame_name="turn" />
+			<state type="goInside" frame_name="go_inside" />
+			<state type="goOutside" frame_name="go_outside" />
+			<state type="aim" frame_name="aim" />
+			<state type="alarm" frame_name="alarm" />
+			<state type="hit" frame_name="hit"/>
+			<state type="hit" frame_name="hit_aim"/>
+			<state type="run" frame_name="run" />
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemypistol" clips="-1" />
+			<!--<weapon type="pistol" rounds="9" damage="10" accuracy="50" speed="" />-->
+			
+		</enemy>
+		
+		<enemy id="heavy_01" type="heavy" range_patrol="1200" range_search="1500" range_ear="600" 
+		speed="5" line_of_sight="310" skin="heavy1" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="patrol" frame_name="patrol"/>
+			<state type="search" frame_name="search"/>
+			<state type="walkAttack" frame_name="walk_attack"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="distracted" frame_name="distracted" />
+			<state type="stop" frame_name="stop" />
+			<state type="turn" frame_name="turn" />
+			<state type="goInside" frame_name="go_inside" />
+			<state type="goOutside" frame_name="go_outside" />
+			<state type="aim" frame_name="aim" />
+			<state type="alarm" frame_name="alarm" />
+			<state type="hit" frame_name="hit"/>
+			<state type="hit" frame_name="hit_aim"/>
+			<state type="run" frame_name="run" />
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemySMG" clips="-1" />
+			<!--<weapon type="pistol" rounds="9" damage="10" accuracy="50" speed="" />-->
+			
+		</enemy>
+		
+		<enemy id="medium_01" type="medium" range_patrol="1100" range_search="1400" range_ear="500"  
+		speed="4" line_of_sight="310" skin="medium1" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="patrol" frame_name="patrol"/>
+			<state type="search" frame_name="search"/>
+			<state type="walkAttack" frame_name="walk_attack"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="distracted" frame_name="distracted" />
+			<state type="stop" frame_name="stop" />
+			<state type="turn" frame_name="turn" />
+			<state type="goInside" frame_name="go_inside" />
+			<state type="goOutside" frame_name="go_outside" />
+			<state type="aim" frame_name="aim" />
+			<state type="alarm" frame_name="alarm" />
+			<state type="hit" frame_name="hit"/>
+			<state type="hit" frame_name="hit_aim"/>
+			<state type="run" frame_name="run" />
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemySMG" clips="-1" />
+			<!--<weapon type="pistol" rounds="9" damage="10" accuracy="50" speed="" />-->
+			
+		</enemy>
+		
+		<enemy id="medium_02" type="medium" range_patrol="200" range_search="300" range_ear="300"  
+		speed="3" line_of_sight="250" skin="medium2" >
+			<!-- 
+				rounds=number of bullets 
+				damage= how much damage does to the player
+				accuracy=how much possibilities it has of hitting the player ( 0-100%)
+				speed=time between shots
+			-->
+			<!--NO!!!! --> <!-- states can override some of the properties of the enemy as line_of_sight, speed -->
+			<state type="patrol" frame_name="patrol"/>
+			<state type="search" frame_name="search"/>
+			<state type="walkAttack" frame_name="walk_attack"/>
+			<state type="attack" frame_name="attack"/>
+			<state type="distracted" frame_name="distracted" />
+			<state type="stop" frame_name="stop" />
+			<state type="turn" frame_name="turn" />
+			<state type="goInside" frame_name="go_inside" />
+			<state type="goOutside" frame_name="go_outside" />
+			<state type="aim" frame_name="aim" />
+			<state type="alarm" frame_name="alarm" />
+			<state type="hit" frame_name="hit"/>
+			<state type="hit" frame_name="hit_aim"/>
+			<state type="run" frame_name="run" />
+			<state type="dead" frame_name="dead"/>
+			<weapon id="enemySMG" clips="-1" />
+			<!--<weapon type="pistol" rounds="9" damage="10" accuracy="50" speed="" />-->
+			
+		</enemy>
+		
+		
+		<levels>
+			<level floor="0" >
+				<room id="room_0" width="2880">			
+					<enemies>
+						<enemy id="light_01" idObj="enemy001" posx="1280" posy="base" dir="r"/>
+						<enemy id="light_01" idObj="enemy002" posx="1984" posy="base" dir="l"/>
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="25" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="28" posy="60" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="0" posy="0" scope="roof" scopepos="right" />
+						<object type="light05" property="none" posx="11" posy="0" scope="roof" scopepos="alone" />
+						<object type="light04" property="none" posx="16" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="19" posy="64" scope="wall" scopepos="right" />
+						<object type="lightSN" property="protected" posx="24" posy="0" scope="roof" scopepos="left" />
+						<object type="light03" property="none" posx="27" posy="0" scope="roof" scopepos="middle" />
+						<object type="light03" property="none" posx="30" posy="0" scope="roof" scopepos="right" />
+						<object type="lightSN" property="protected" posx="35" posy="0" scope="roof" scopepos="alone" />
+						<object type="lightSN" property="protected" posx="41" posy="0" scope="roof" scopepos="alone" />
+						<!--SACAR ESTA PUERTA DE LA VERSION FINAL!!!!
+						<object type="elevator01open2" property="changeLevel" posx="2" posy="64" target="3" spawnx="1" SWFname=""/>
+						SACAR ESTA PUERTA DE LA VERSION FINAL!!!!-->
+						<object type="door02" property="spawnEnemiesAlarm" posx="34" posy="64" enemyId="light_01" count="2" />
+						<object type="door02open2" property="goTrough" posx="40" posy="64" target="1" spawnx="3" />						
+					</elements>
+					<help>						
+						<message fromx="100" uptox="320" text="Use the LEFT and RIGHT directional keys to walk" />
+						<message fromx="380" uptox="640" text="Pressing UP you can hide in the shadows, to avoid being spot" />
+						<message fromx="768" uptox="1024" text="You can create shadows by shooting some of the lights (Press the W key)" />
+						<message fromx="1280" uptox="1536" text="Some lights are protected and cannot be broken" />
+						<message fromx="1664" uptox="1920" text="Pressing UP near a column you can use it for cover and concealment" />
+						<message fromx="2112" uptox="2304" text="Beware closed doors! Guards on patrol can come from them" />
+						<message fromx="2496" uptox="2752" text="Open doors take you to a diferent part of the level. Press UP to enter" />
+					</help>
+				</room>
+				
+				<room id="room_1" width="2880">
+					<enemies>
+						<enemy id="light_01" idObj="enemy003" posx="768" posy="base" dir="l"/>
+						<enemy id="light_01" idObj="enemy004" posx="1152" posy="base" dir="l"/>
+						<enemy id="light_01" idObj="enemy005" posx="1172" posy="base" dir="r"/>
+					</enemies>					
+					<elements>
+						<object type="column02" property="hide" posx="7" posy="60" />
+						<object type="column02" property="hide" posx="11" posy="60" />
+						<object type="column02" property="hide" posx="15" posy="60" />
+						<object type="column02" property="hide" posx="19" posy="60" />
+						<object type="column02" property="hide" posx="23" posy="60" />
+						<object type="lightSN" property="protected" posx="3" posy="0" scope="roof" scopepos="alone" />
+						<object type="light03" property="none" posx="9" posy="0" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="13" posy="0" scope="roof" scopepos="middle" />
+						<object type="light04" property="none" posx="17" posy="64" scope="wall" scopepos="middle" />
+						<object type="light04" property="none" posx="21" posy="64" scope="wall" scopepos="right" />
+						<object type="light04" property="none" posx="30" posy="64" scope="wall" scopepos="alone" />
+						<object type="light04" property="none" posx="37" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="41" posy="0" scope="roof" scopepos="right" />
+						<object type="door02open2" property="goTrough" posx="3" posy="64" target="0" spawnx="40" />
+						<object type="door02" property="spawnEnemiesAlarm" posx="12" posy="64" enemyId="light_01" count="2" />
+						<object type="door02open2" property="goTrough" posx="40" posy="64" target="2" spawnx="19" />
+					</elements>
+				</room>
+				
+				<room id="room_2" width="2880">			
+					<enemies>
+						<enemy id="light_02" idObj="enemy006" posx="192" posy="base" dir="r" />
+						<enemy id="light_02" idObj="enemy006b" posx="2304" posy="base" dir="l" />
+						<enemy id="light_01" idObj="enemy007" posx="2560" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="15" posy="60" />
+						<object type="column02" property="hide" posx="33" posy="60" />
+						<object type="lightSN" property="protected" posx="3" posy="0" scope="roof" scopepos="alone" />
+						<object type="light05" property="none" posx="9" posy="0" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="13" posy="0" scope="roof" scopepos="right" />
+						<object type="lightSN" property="protected" posx="18" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="21" posy="64" scope="wall" scopepos="right" />
+						<object type="light04" property="none" posx="34" posy="64" scope="wall" scopepos="alone" />
+						<object type="lightSN" property="protected" posx="39" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="42" posy="64" scope="wall" scopepos="right" />
+						<object type="door02open2" property="goTrough" posx="3" posy="64" target="3" spawnx="2" />
+						<object type="door02" property="spawnEnemiesAlarm" posx="12" posy="64" enemyId="light_01" count="3" />
+						<object type="door02open2" property="goTrough" posx="19" posy="64" target="1" spawnx="40" />						
+						<object type="door02" property="spawnEnemiesAlarm" posx="29" posy="64" enemyId="light_02" count="2" />
+						<object type="elevator01" property="futureChangeLevel" posx="40" posy="64" target="1" spawnx="2" SWFname="" />-->
+					</elements>
+					<help>						
+					<message fromx="2496" uptox="2752" text="Only to be used by authorized personnel" />
+					</help>
+				</room>
+				<room id="room_3" width="1088">			
+					<enemies>
+						<enemy id="light_02" idObj="enemy008" posx="832" posy="base" dir="r" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="5" posy="60" />
+						<object type="lightSN" property="protected" posx="1" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="4" posy="64" scope="wall" scopepos="right" />
+						<object type="lightSN" property="protected" posx="9" posy="0" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="14" posy="0" scope="roof" scopepos="right" />
+						<object type="door02open2" property="goTrough" posx="2" posy="64" target="2" spawnx="3" />
+						<object type="door02" property="spawnEnemiesAlarm" posx="6" posy="64" enemyId="light_01" count="3" />
+						<object type="SWFtrigger" property="SWFtrigger" posx="1014" posy="0" SWFname="miniGame2" />
+						</elements>
+				</room>				
+			</level>
+			<level floor="1" >
+				<room id="room_0" width="2880">			
+					<enemies>
+						<enemy id="light_02" idObj="enemy009" posx="960" posy="base" dir="l" />
+						<enemy id="light_01" idObj="enemy010" posx="1154" posy="base" dir="r" />
+						<enemy id="light_02" idObj="enemy011" posx="1728" posy="base" dir="l" />
+						<enemy id="light_01" idObj="enemy012" posx="2496" posy="base" dir="r" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="6" posy="60" />
+						<object type="column02" property="hide" posx="11" posy="60" />
+						<object type="column02" property="hide" posx="31" posy="60" />
+						<object type="column02" property="hide" posx="37" posy="60" />
+						<object type="lightSN" property="protected" posx="1" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="4" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="7" posy="0" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="10" posy="0" scope="roof" scopepos="middle" />
+						<object type="light01" property="none" posx="15" posy="0" scope="roof" scopepos="middle" />						
+						<object type="light01" property="none" posx="18" posy="0" scope="roof" scopepos="middle" />
+						<object type="light01" property="none" posx="21" posy="0" scope="roof" scopepos="middle" />
+						<object type="light01" property="none" posx="24" posy="0" scope="roof" scopepos="right" />
+						<object type="lightSN" property="protected" posx="29" posy="64" scope="wall" scopepos="alone" />
+						<object type="lightSN" property="protected" posx="42" posy="0" scope="roof" scopepos="alone" />
+						<object type="door01open2" property="goTrough" posx="41" posy="64" target="1" spawnx="39" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="8" posy="64" enemyId="light_01" count="4" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="27" posy="64" enemyId="light_02" count="4" />
+					</elements>
+				</room>
+				
+				<room id="room_1" width="2880">
+					<enemies>
+						<enemy id="medium_01" idObj="enemy013" posx="1728" posy="base" dir="r" />
+						<enemy id="medium_02" idObj="enemy014" posx="1536" posy="base" dir="r" />
+						<enemy id="medium_01" idObj="enemy015" posx="1024" posy="base" dir="l" />
+						<enemy id="medium_02" idObj="enemy016" posx="512" posy="base" dir="r" />
+						<enemy id="medium_01" idObj="enemy017" posx="194" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="locker02" property="hide" posx="7" posy="60" />
+						<object type="locker02" property="hide" posx="9" posy="60" />
+						<object type="column02" property="hide" posx="18" posy="60" />
+						<object type="locker02" property="hide" posx="37" posy="60" />
+						<object type="column02" property="hide" posx="41" posy="60" />
+						<object type="lightSN" property="protected" posx="2" posy="64" scope="wall" scopepos="alone" />
+						<object type="light01" property="none" posx="9" posy="0" scope="roof" scopepos="left" />
+						<object type="light01" property="none" posx="12" posy="0" scope="roof" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="15" posy="0" scope="roof" scopepos="right" />
+						<object type="lightSN" property="protected" posx="20" posy="64" scope="wall" scopepos="left" />	
+						<object type="light02" property="none" posx="23" posy="64" scope="wall" scopepos="middle" />	
+						<object type="light02" property="none" posx="26" posy="64" scope="wall" scopepos="right" />	
+						<object type="lightSN" property="protected" posx="42" posy="64" scope="wall" scopepos="alone" />	
+						<object type="window01" property="none" posx="31" posy="0" scope="window" scopepos="left" />
+						<object type="window02" property="none" posx="32" posy="0" scope="window" scopepos="leftmiddle" />
+						<object type="window03" property="none" posx="33" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="34" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="35" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="36" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="37" posy="0" scope="window" scopepos="middle" />
+						<object type="window04" property="none" posx="38" posy="0" scope="window" scopepos="right" />
+						<object type="door01open2" property="goTrough" posx="3" posy="64" target="2" spawnx="2" />
+						<object type="door01open2" property="goTrough" posx="39" posy="64" target="0" spawnx="41" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="16" posy="64" enemyId="light_01" count="5" />
+					</elements>
+				</room>
+
+				<room id="room_2" width="1408">
+					<enemies>
+						<enemy id="light_01" idObj="enemy018" posx="832" posy="base" dir="l" />
+						<enemy id="light_02" idObj="enemy019" posx="1154" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="window01" property="none" posx="6" posy="0" scope="window" scopepos="left" />
+						<object type="window02" property="none" posx="7" posy="0" scope="window" scopepos="leftmiddle" />
+						<object type="window03" property="none" posx="8" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="9" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="10" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="11" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="12" posy="0" scope="window" scopepos="middle" />
+						<object type="window04" property="none" posx="13" posy="0" scope="window" scopepos="right" />
+						<object type="lightSN" property="protected" posx="16" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="19" posy="64" scope="wall" scopepos="right" />
+						<object type="door01open1" property="goTrough" posx="2" posy="64" target="1" spawnx="3" />
+						<object type="elevator01open2" property="changeLevel" posx="14" posy="64" target="2" spawnx="3" SWFname="miniGame" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="17" posy="64" enemyId="light_02" count="5" />
+					</elements>
+					<help>						
+					</help>
+				</room>
+			</level>
+			<level floor="2" >
+				<room id="room_0" width="2880">			
+					<enemies>
+						<enemy id="medium_01" idObj="enemy020" posx="1152" posy="base" dir="l" />
+						<enemy id="light_01" idObj="enemy021" posx="1536" posy="base" dir="l" />
+						<enemy id="light_02" idObj="enemy022" posx="1570" posy="base" dir="l" />
+						<enemy id="medium_02" idObj="enemy023" posx="2304" posy="base" dir="l" />
+						<enemy id="medium_01" idObj="enemy024" posx="2360" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="10" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="15" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="33" posy="60" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="2" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="5" posy="64" scope="wall" scopepos="middle" />
+						<object type="light08" property="none" posx="9" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="13" posy="0" scope="roof" scopepos="middle" />
+						<object type="light08" property="none" posx="18" posy="64" scope="wall" scopepos="middle" />
+						<object type="light08" property="none" posx="21" posy="64" scope="wall" scopepos="middle" />
+						<object type="light08" property="none" posx="24" posy="64" scope="wall" scopepos="middle" />
+						<object type="light08" property="none" posx="27" posy="64" scope="wall" scopepos="middle" />
+						<object type="light08" property="none" posx="30" posy="64" scope="wall" scopepos="right" />
+						<object type="light08" property="none" posx="30" posy="64" scope="wall" scopepos="right" />
+						<object type="lightSN" property="protected" posx="37" posy="0" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="40" posy="0" scope="roof" scopepos="right" />
+						<object type="door04" property="spawnEnemiesAlarm" posx="12" posy="64" enemyId="heavy_01" count="2" />						
+						<object type="door04" property="spawnEnemiesAlarm" posx="35" posy="64" enemyId="heavy_01" count="2" />						
+						<object type="door04open2" property="goTrough" posx="38" posy="64" target="1" spawnx="9" />
+					</elements>
+					<help>						
+					</help>
+				</room>	
+				<room id="room_1" width="2880">			
+					<enemies>
+						<enemy id="medium_01" idObj="enemy025" posx="960" posy="base" dir="r" />
+						<enemy id="medium_02" idObj="enemy026" posx="1409" posy="base" dir="l" />
+						<enemy id="medium_01" idObj="enemy027" posx="1856" posy="base" dir="l" />
+						<enemy id="medium_02" idObj="enemy028" posx="2688" posy="base" dir="r" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="7" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="18" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="34" posy="60" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="3" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="6" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="8" posy="64" scope="wall" scopepos="right" />
+						<object type="lightSN" property="protected" posx="13" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="16" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="20" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="23" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="27" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="30" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="35" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="38" posy="64" scope="roof" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="42" posy="64" scope="roof" scopepos="right" />
+						<object type="door04open2" property="goTrough" posx="9" posy="64" target="0" spawnx="38" />
+						<object type="door04" property="spawnEnemiesAlarm" posx="19" posy="64" enemyId="heavy_01" count="4" />
+						<object type="door04open2" property="goTrough" posx="40" posy="64" target="2" spawnx="4" />
+					</elements>
+					<help>						
+					</help>
+				</room>
+				<room id="room_2" width="1536">			
+					<enemies>
+						<enemy id="light_02" idObj="enemy029" posx="960" posy="base" dir="l" />
+						<enemy id="light_02" idObj="enemy030" posx="1020" posy="base" dir="r" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="11" posy="60" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="3" posy="64" scope="wall" scopepos="alone" />
+						<object type="window01" property="none" posx="8" posy="0" scope="window" scopepos="left" />
+						<object type="window02" property="none" posx="9" posy="0" scope="window" scopepos="leftmiddle" />
+						<object type="window03" property="none" posx="10" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="11" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="12" posy="0" scope="window" scopepos="right" />
+						<object type="window01" property="none" posx="14" posy="0" scope="window" scopepos="left" />
+						<object type="window02" property="none" posx="15" posy="0" scope="window" scopepos="leftmiddle" />
+						<object type="window03" property="none" posx="16" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="17" posy="0" scope="window" scopepos="middle" />
+						<object type="window03" property="none" posx="18" posy="0" scope="window" scopepos="right" />
+						<object type="lightSN" property="protected" posx="21" posy="64" scope="wall" scopepos="alone" />
+						<object type="door04" property="spawnEnemiesAlarm" posx="1" posy="64" enemyId="heavy_01" count="4" />
+						<object type="door04open2" property="goTrough" posx="4" posy="64" target="1" spawnx="40" />
+						<object type="door04open2" property="goTrough" posx="19" posy="64" target="3" spawnx="9" />
+					</elements>
+					<help>						
+					</help>
+				</room>
+				<room id="room_3" width="2880">			
+					<enemies>
+						<enemy id="medium_02" idObj="enemy031" posx="1088" posy="base" dir="l" />
+						<enemy id="medium_02" idObj="enemy032" posx="1408" posy="base" dir="l" />
+						<enemy id="medium_01" idObj="enemy033" posx="2176" posy="base" dir="r" />
+						<enemy id="light_01" idObj="enemy034" posx="2450" posy="base" dir="l" />
+						<enemy id="light_02" idObj="enemy035" posx="2688" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="5" posy="60" />
+						<object type="column02" property="hide" posx="12" posy="60" />
+						<object type="column02" property="hide" posx="18" posy="60" />
+						<object type="column02" property="hide" posx="24" posy="60" />
+						<object type="column02" property="hide" posx="33" posy="60" />
+						<object type="lightSN" property="protected" posx="9" posy="0" scope="roof" scopepos="alone" />
+						<object type="light08" property="none" posx="15" posy="64" scope="wall" scopepos="alone" />
+						<object type="light08" property="none" posx="21" posy="64" scope="wall" scopepos="alone" />
+						<object type="lightSN" property="protected" posx="28" posy="0" scope="roof" scopepos="alone" />
+						<object type="lightSN" property="protected" posx="36" posy="64" scope="wall" scopepos="left" />
+						<object type="lightSN" property="protected" posx="39" posy="64" scope="wall" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="42" posy="64" scope="wall" scopepos="right" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="6" posy="64" enemyId="heavy_01" count="2" />
+						<object type="door01open2" property="goTrough" posx="9" posy="64" target="2" spawnx="19" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="26" posy="64" enemyId="heavy_01" count="1" />
+						<object type="door01" property="spawnEnemiesAlarm" posx="29" posy="64" enemyId="heavy_01" count="1" />
+						<object type="door01open2" property="changeLevel" posx="40" posy="64" target="3" spawnx="3" SWFname="page04" />
+					</elements>
+				</room>
+			</level>
+			<level floor="3" >
+				<room id="room_0" width="704">			
+					<enemies>
+						<enemy id="boss" idObj="enemy036" posx="576" posy="base" dir="l" />
+					</enemies>
+					<elements>
+						<object type="column02" property="hide" posx="3" posy="60" scope="roof" scopepos="left" />
+						<object type="column02" property="hide" posx="5" posy="60" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="1" posy="64" scope="roof" scopepos="left" />
+						<object type="lightSN" property="protected" posx="4" posy="64" scope="roof" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="7" posy="64" scope="roof" scopepos="middle" />
+						<object type="lightSN" property="protected" posx="9" posy="64" scope="roof" scopepos="right" />
+						<object type="door01" property="none" posx="1" posy="64" />						
+					</elements>
+					<help>						
+					</help>
+				</room>	
+		</levels>
+	</game>
+</data>

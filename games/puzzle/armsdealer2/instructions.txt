@@ -1,0 +1,49 @@
+ _______                     _______                              
+|    ___|.----.-----.-----. |     __|.---.-.--------.-----.-----. 
+|    ___||   _|  -__|  -__| |    |  ||  _  |        |  -__|__ --| 
+|___|    |__| |_____|_____| |_______||___._|__|__|__|_____|_____|   
+                                                                                                                   
+ _______               ___ ___                   
+|    ___|.-----.----. |   |   |.-----.--.--.----.
+|    ___||  _  |   _|  \     / |  _  |  |  |   _|
+|___|    |_____|__|     |___|  |_____|_____|__|  
+                                                                                                                   
+ ________         __           __ __                                    
+|  |  |  |.-----.|  |--.-----.|__|  |_.-----.      .----.-----.--------.
+|  |  |  ||  -__||  _  |__ --||  |   _|  -__|  __  |  __|  _  |        |
+|________||_____||_____|_____||__|____|_____| |__| |____|_____|__|__|__|
+                                                                        
+
++-+-+-+-+-+-+-+-+-+-+-+-+
+|I|N|S|T|R|U|C|T|I|O|N|S|
++-+-+-+-+-+-+-+-+-+-+-+-+
+
+
+1) First of all, please make sure that you have atleast the following files..
+
+1 x .html file
+1 x .swf or .dcr file
+1 x .js File
+
+
+If you for some reason haven't got any of the above files, You'll need to 
+download these files again from www.FreeGamesForYourWebsite.com 
+
+
+2) Make a new folder on your website and call it 'games'....
+
+# now place the .html file, .js file and the .swf/.dcr files into the same folder....
+# go to www.YourWebsite.com/games/the-name-of-the-game.html and wallah the 
+game is on your website.
+# Mess about with the .html file to give it that unified look, just like the 
+rest of your websites pages.
+
+
+3) Don't forget to signup to our 'Webmaster newsletter' so we can always send 
+you new games as soon as they are released, or simply keep on coming back to 
+FreeGamesForYourWebsite.com for more great free games for your website.
+
+
+To contact us, simply email at: 
+
+Marketing (at) FreeOnlineGames.com

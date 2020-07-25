@@ -1,0 +1,357 @@
+<?xml version="1.0" ?>
+<!--  el nivel del suelo es 376 -->
+<data>
+	<levels>
+
+		<!--1_AUTO_APROBADO-->
+		<level number="1" goal_start_x="2470" goal_end_x="3710" prize="4000" tiles_count="8" bg="1114410" message="warming up with easy obstacles" >
+			<obstacle kind="2" start_x="640" start_y="376" fliped="no" />
+			<obstacle kind="12" start_x="870" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="850" start_y="248" end_x="1122" end_y="248" />
+			<obstacle kind="2" start_x="1920" start_y="376" fliped="no" />
+			<obstacle kind="13" start_x="2120" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2120" start_y="248" end_x="2375" end_y="248" />
+			<obstacle kind="0" start_x="3700" start_y="370" end_x="3700" end_y="178" />
+			<obstacle kind="6" start_x="3700" start_y="376"  />
+			<obstacle kind="6" start_x="3700" start_y="312"  />
+			<obstacle kind="6" start_x="3700" start_y="312"  />
+			<obstacle kind="6" start_x="3700" start_y="248"  />
+		</level>
+		
+		<!--LIMO_APROBADO-->
+		<level number="2" goal_start_x="2690" goal_end_x="3910" prize="4000" tiles_count="8" bg="1114410" message="Jump over the limo" >
+			<obstacle kind="2" start_x="640" start_y="376" fliped="no" />
+			<obstacle kind="15" start_x="850" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="860" start_y="246" end_x="1260" end_y="246" />
+			<obstacle kind="0" start_x="1260" start_y="246" end_x="1310" end_y="275" />
+			<obstacle kind="0" start_x="1310" start_y="275" end_x="1345" end_y="278" />
+			<obstacle kind="3" start_x="1410" start_y="376" fliped="yes" />
+			<obstacle kind="2" start_x="1800" start_y="376" fliped="no" />
+			<obstacle kind="15" start_x="2000" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2000" start_y="246" end_x="2410" end_y="246" />
+			<obstacle kind="0" start_x="2410" start_y="246" end_x="2450" end_y="275" />
+			<obstacle kind="0" start_x="2450" start_y="275" end_x="2485" end_y="278" />
+			<obstacle kind="3" start_x="2540" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="3900" start_y="370" end_x="3900" end_y="178" />
+			<obstacle kind="6" start_x="3900" start_y="376"  />
+			<obstacle kind="6" start_x="3900" start_y="312"  />
+			<obstacle kind="6" start_x="3900" start_y="312"  />
+			<obstacle kind="6" start_x="3900" start_y="248"  />	
+		</level>
+		
+		<!--2_CAMIONES_APROBADO-->
+		<level number="3" goal_start_x="3600" goal_end_x="5010" prize="4000" tiles_count="9" bg="122456211" message="trucks and tricks!" >					
+			<obstacle kind="2" start_x="768" start_y="376" fliped="no" />
+			<obstacle kind="19" start_x="975" start_y="376" fliped="no" />
+			<obstacle kind="19" start_x="1305" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="975" start_y="248" end_x="1635" end_y="248" />
+			<obstacle kind="2" start_x="1650" start_y="376" fliped="yes" />
+			<obstacle kind="2" start_x="2600" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2810" start_y="248" end_x="3480" end_y="248" />
+			<obstacle kind="19" start_x="2810" start_y="376" fliped="no" />
+			<obstacle kind="19" start_x="3150" start_y="376" fliped="no" />
+			<obstacle kind="2" start_x="3450" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="5000" start_y="370" end_x="5000" end_y="178" />
+			<obstacle kind="6" start_x="5000" start_y="376"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="248"  />	
+		</level>
+		
+			<!--2_BUS_-->
+		<level number="4" goal_start_x="2250" goal_end_x="3510" prize="4000" tiles_count="9" bg="122456211" message="trucks and tricks!" >					
+			<obstacle kind="4" start_x="768" start_y="376" fliped="no" />
+			<obstacle kind="10" start_x="1100" start_y="376" fliped="no" />
+			<obstacle kind="11" start_x="1570" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="1100" start_y="182" end_x="2100" end_y="182" />
+			<obstacle kind="4" start_x="2050" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="3500" start_y="370" end_x="3500" end_y="178" />
+			<obstacle kind="6" start_x="3500" start_y="376"  />
+			<obstacle kind="6" start_x="3500" start_y="312"  />
+			<obstacle kind="6" start_x="3500" start_y="312"  />
+			<obstacle kind="6" start_x="3500" start_y="248"  />	
+		</level>
+						
+		<!--HELI_APROBADO-->
+		<level number="5" goal_start_x="2550" goal_end_x="5010" prize="4000" tiles_count="9" bg="122456211" message="chopper challenge!" >					
+			<obstacle kind="2" start_x="1230" start_y="376" fliped="no" />
+			<obstacle kind="20" start_x="1400" start_y="376" fliped="no" />
+			<obstacle kind="20" start_x="1850" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="1450" start_y="248" end_x="2350" end_y="248" />
+			<obstacle kind="2" start_x="2385" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="5000" start_y="370" end_x="5000" end_y="178" />
+			<obstacle kind="6" start_x="5000" start_y="376"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="248"  />	
+		</level>
+		
+		<!--RAMPA ELEVADA_APROBADO-->
+		<level number="6" goal_start_x="2000" goal_end_x="2384" prize="4000" tiles_count="6" bg="967801" message="land on the boxes...">					
+			<obstacle kind="1" start_x="1230" start_y="376" fliped="no" />
+			<obstacle kind="6" start_x="2000" start_y="376"  />
+			<obstacle kind="6" start_x="2000" start_y="312"  />
+			<obstacle kind="6" start_x="2064" start_y="376"  />
+			<obstacle kind="6" start_x="2064" start_y="312"  />
+			<obstacle kind="6" start_x="2128" start_y="312"  />
+			<obstacle kind="6" start_x="2128" start_y="376"  />
+			<obstacle kind="6" start_x="2192" start_y="376"  />
+			<obstacle kind="6" start_x="2192" start_y="312"  />
+			<obstacle kind="6" start_x="2256" start_y="312"  />
+			<obstacle kind="6" start_x="2256" start_y="376"  />
+			<obstacle kind="6" start_x="2320" start_y="376"  />
+			<obstacle kind="6" start_x="2320" start_y="312"  />
+			<obstacle kind="22" start_x="1400" start_y="376"  />
+			<obstacle kind="0" start_x="1400" start_y="312" end_x="1464" end_y="312"  />
+			<obstacle kind="22" start_x="1500" start_y="376"  />
+			<obstacle kind="0" start_x="1500" start_y="312" end_x="1564" end_y="312"  />
+			<obstacle kind="22" start_x="1600" start_y="376"  />
+			<obstacle kind="0" start_x="1600" start_y="312" end_x="1664" end_y="312"  />
+			<obstacle kind="22" start_x="1700" start_y="376"  />
+			<obstacle kind="0" start_x="1700" start_y="312" end_x="1764" end_y="312"  />
+			<obstacle kind="22" start_x="1800" start_y="376"  />
+			<obstacle kind="0" start_x="1800" start_y="312" end_x="1864" end_y="312"  />
+			<obstacle kind="22" start_x="1900" start_y="376"  />
+			<obstacle kind="0" start_x="1900" start_y="312" end_x="1964" end_y="312"  />
+			<obstacle kind="0" start_x="2000" start_y="376" end_x="2000" end_y="248" />
+			<obstacle kind="9" start_x="2000" start_y="248" end_x="2384" end_y="248" />
+			<obstacle kind="0" start_x="2600" start_y="370" end_x="2600" end_y="178" />
+			<obstacle kind="6" start_x="2600" start_y="376"  />
+			<obstacle kind="6" start_x="2600" start_y="312"  />
+			<obstacle kind="6" start_x="2600" start_y="312"  />
+			<obstacle kind="6" start_x="2600" start_y="248"  />	
+		</level>
+		
+		<!--DIFERENT_LEVELS_MONSTER_TRUCKS_APROBADO-->
+		<level number="7" goal_start_x="3350" goal_end_x="5010" prize="4000" tiles_count="9" bg="122456211" message="jump and jump again!">					
+			<obstacle kind="2" start_x="192" start_y="376" fliped="no" />
+			<obstacle kind="7" start_x="384" start_y="376"  />
+			<obstacle kind="7" start_x="448" start_y="376"  />
+			<obstacle kind="7" start_x="512" start_y="376"  />
+			<obstacle kind="7" start_x="576" start_y="376"  />
+			<obstacle kind="7" start_x="640" start_y="376"  />
+			<obstacle kind="7" start_x="704" start_y="376"  />
+			<obstacle kind="7" start_x="768" start_y="376"  />
+			<obstacle kind="7" start_x="832" start_y="376"  />
+			<obstacle kind="3" start_x="768" start_y="248" fliped="no" />
+			<obstacle kind="9" start_x="384" start_y="248" end_x="768" end_y="248" />
+			<obstacle kind="7" start_x="384" start_y="312"  />
+			<obstacle kind="7" start_x="448" start_y="312"  />
+			<obstacle kind="7" start_x="512" start_y="312"  />
+			<obstacle kind="7" start_x="576" start_y="312"  />
+			<obstacle kind="7" start_x="640" start_y="312"  />
+			<obstacle kind="7" start_x="704" start_y="312"  />
+			<obstacle kind="7" start_x="768" start_y="312"  />
+			<obstacle kind="7" start_x="832" start_y="312"  />
+			<obstacle kind="16" start_x="896" start_y="376"  />
+			<obstacle kind="0" start_x="896" start_y="200" end_x="1216" end_y="200" />
+			<obstacle kind="3" start_x="1216" start_y="248" fliped="yes" />
+			<obstacle kind="7" start_x="1216" start_y="376"  />
+			<obstacle kind="7" start_x="1216" start_y="312"  />
+			<obstacle kind="7" start_x="1280" start_y="376"  />
+			<obstacle kind="7" start_x="1280" start_y="312"  />
+			<obstacle kind="7" start_x="1344" start_y="376"  />
+			<obstacle kind="7" start_x="1344" start_y="312"  />
+			<obstacle kind="7" start_x="1408" start_y="376"  />
+			<obstacle kind="7" start_x="1408" start_y="312"  />
+			<obstacle kind="7" start_x="1472" start_y="376"  />
+			<obstacle kind="7" start_x="1472" start_y="312"  />
+			<obstacle kind="7" start_x="1536" start_y="376"  />
+			<obstacle kind="7" start_x="1536" start_y="312"  />
+			<obstacle kind="7" start_x="1600" start_y="376"  />
+			<obstacle kind="7" start_x="1600" start_y="312"  />
+			<obstacle kind="7" start_x="1664" start_y="312"  />
+			<obstacle kind="7" start_x="1664" start_y="376"  />
+			<obstacle kind="9" start_x="1344" start_y="248" end_x="1600" end_y="248" />
+			<obstacle kind="3" start_x="1600" start_y="248" fliped="no" />
+			<obstacle kind="16" start_x="1728" start_y="376"  />
+			<obstacle kind="17" start_x="2048" start_y="376"  />
+			<obstacle kind="0" start_x="1728" start_y="200" end_x="2368" end_y="200" />
+			<obstacle kind="2" start_x="2430" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="4000" start_y="376" end_x="4000" end_y="178" />
+			<obstacle kind="6" start_x="4000" start_y="376" />
+			<obstacle kind="6" start_x="4000" start_y="312" />
+			<obstacle kind="6" start_x="4000" start_y="312" />
+			<obstacle kind="6" start_x="4000" start_y="248" />	
+		</level>
+				
+		<!--FUEGO_APROBADO-->
+		<level number="8" goal_start_x="2650" goal_end_x="4010" prize="4000" tiles_count="8" bg="1224511" message="Go through the fire circles!!">					
+			<obstacle kind="3" start_x="1230" start_y="376" fliped="no" />
+			<obstacle kind="23" start_x="1500" start_y="315"  />
+			<obstacle kind="0" start_x="1540" start_y="260" end_x="1540" end_y="265" />
+			<obstacle kind="0" start_x="1540" start_y="120" end_x="1540" end_y="125" />
+			<obstacle kind="22" start_x="1500" start_y="376"  />
+			<obstacle kind="0" start_x="1500" start_y="312" end_x="1564" end_y="312" />
+			<obstacle kind="23" start_x="1600" start_y="295"  />
+			<obstacle kind="0" start_x="1640" start_y="240" end_x="1640" end_y="245" />
+			<obstacle kind="0" start_x="1640" start_y="100" end_x="1640" end_y="105" />
+			<obstacle kind="22" start_x="1600" start_y="376"  />
+			<obstacle kind="0" start_x="1600" start_y="312" end_x="1664" end_y="312" />
+			<obstacle kind="23" start_x="1700" start_y="295"  />
+			<obstacle kind="0" start_x="1740" start_y="240" end_x="1740" end_y="245" />
+			<obstacle kind="0" start_x="1740" start_y="100" end_x="1740" end_y="105" />
+			<obstacle kind="22" start_x="1700" start_y="376"  />
+			<obstacle kind="0" start_x="1700" start_y="312" end_x="1764" end_y="312" />
+			<obstacle kind="23" start_x="1800" start_y="275"  />
+			<obstacle kind="0" start_x="1840" start_y="220" end_x="1840" end_y="225" />
+			<obstacle kind="0" start_x="1840" start_y="80" end_x="1840" end_y="85" />
+			<obstacle kind="22" start_x="1800" start_y="376"  />
+			<obstacle kind="0" start_x="1800" start_y="312" end_x="1864" end_y="312" />
+			<obstacle kind="23" start_x="1900" start_y="255"  />
+			<obstacle kind="0" start_x="1940" start_y="200" end_x="1940" end_y="205" />
+			<obstacle kind="0" start_x="1940" start_y="60" end_x="1940" end_y="65" />
+			<obstacle kind="22" start_x="1900" start_y="376"  />
+			<obstacle kind="0" start_x="1900" start_y="312" end_x="1964" end_y="312" />
+			<obstacle kind="23" start_x="2000" start_y="255"  />
+			<obstacle kind="0" start_x="2040" start_y="200" end_x="2040" end_y="205" />
+			<obstacle kind="0" start_x="2040" start_y="60" end_x="2040" end_y="65" />
+			<obstacle kind="22" start_x="2000" start_y="376"  />
+			<obstacle kind="0" start_x="2000" start_y="312" end_x="2064" end_y="312" />
+			<obstacle kind="22" start_x="2100" start_y="376"  />
+			<obstacle kind="0" start_x="2100" start_y="312" end_x="2164" end_y="312" />
+			<obstacle kind="22" start_x="2200" start_y="376"  />
+			<obstacle kind="0" start_x="2200" start_y="312" end_x="2264" end_y="312" />
+			<obstacle kind="22" start_x="2300" start_y="376"  />
+			<obstacle kind="0" start_x="2300" start_y="312" end_x="2364" end_y="312" />
+			<obstacle kind="22" start_x="2400" start_y="376"  />
+			<obstacle kind="0" start_x="2400" start_y="312" end_x="2464" end_y="312" />
+			<obstacle kind="2" start_x="2500" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="4000" start_y="370" end_x="4000" end_y="178" />
+			<obstacle kind="6" start_x="4000" start_y="376"  />
+			<obstacle kind="6" start_x="4000" start_y="312"  />
+			<obstacle kind="6" start_x="4000" start_y="312"  />
+			<obstacle kind="6" start_x="4000" start_y="248"  />	
+		</level>
+		
+		<!--FIRETRUCK_MONSTERS_T_APROBADO-->
+		<level number="9" goal_start_x="3350" goal_end_x="5010" prize="4000" tiles_count="9" bg="122456211" message="Fly high over the trucks!">					
+			<obstacle kind="1" start_x="1720" start_y="376" fliped="no" />
+			<obstacle kind="16" start_x="2019" start_y="376"  />
+			<obstacle kind="14" start_x="2350" start_y="376"  />			
+			<obstacle kind="17" start_x="2800" start_y="376"  />
+			<obstacle kind="0" start_x="2020" start_y="376" end_x="2020" end_y="220" />
+			<obstacle kind="0" start_x="2020" start_y="220" end_x="2120" end_y="205" />
+			<obstacle kind="0" start_x="2120" start_y="205" end_x="2150" end_y="184" />
+			<obstacle kind="0" start_x="2150" start_y="184" end_x="3110" end_y="184" />
+			<obstacle kind="1" start_x="3200" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="5000" start_y="370" end_x="5000" end_y="178" />
+			<obstacle kind="6" start_x="5000" start_y="376"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="248"  />	
+		</level>
+				
+		<!--DIFERENT_LEVELS_BUS-->
+		<level number="10" goal_start_x="3250" goal_end_x="5010" prize="4000" tiles_count="9" bg="122456211" message="BUSZZZING IN THE AIR!">					
+			<obstacle kind="3" start_x="256" start_y="376" fliped="no" />
+			<obstacle kind="7" start_x="384" start_y="376" />
+			<obstacle kind="7" start_x="448" start_y="376" />
+			<obstacle kind="7" start_x="512" start_y="376" />
+			<obstacle kind="7" start_x="576" start_y="376" />
+			<obstacle kind="7" start_x="640" start_y="376" />
+			<obstacle kind="7" start_x="704" start_y="376" />
+			<obstacle kind="7" start_x="768" start_y="376" />
+			<obstacle kind="7" start_x="832" start_y="376" />
+			<obstacle kind="7" start_x="896" start_y="376" />
+			<obstacle kind="7" start_x="960" start_y="376" />
+			<obstacle kind="7" start_x="1024" start_y="376" />
+			<obstacle kind="7" start_x="1088" start_y="376" />
+			<obstacle kind="9" start_x="384" start_y="312" end_x="1152" end_y="312" />
+			<obstacle kind="4" start_x="1152" start_y="312" fliped="no" />
+			<obstacle kind="7" start_x="1152" start_y="376" />
+			<obstacle kind="7" start_x="1216" start_y="376" />
+			<obstacle kind="7" start_x="1280" start_y="376" />
+			<obstacle kind="7" start_x="1344" start_y="376" />
+			<obstacle kind="7" start_x="1408" start_y="376" />
+			<obstacle kind="0" start_x="1472" start_y="184" end_x="2816" end_y="184" />
+			<obstacle kind="10" start_x="1472" start_y="376" fliped="no" />
+			<obstacle kind="11" start_x="1920" start_y="376" fliped="no" />
+			<obstacle kind="10" start_x="2368" start_y="376" fliped="no" />
+			<obstacle kind="2" start_x="3000" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="5000" start_y="370" end_x="5000" end_y="178" />
+			<obstacle kind="6" start_x="5000" start_y="376"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="312"  />
+			<obstacle kind="6" start_x="5000" start_y="248"  />	
+		</level>
+		
+		<!--1_LONG_TRUCK_APROBADO-->
+		<level number="11" goal_start_x="2800" goal_end_x="4510" prize="4000" tiles_count="8" bg="1114410" message="The big one!" >
+			<obstacle kind="2" start_x="1000" start_y="376" fliped="no" />
+			<obstacle kind="22" start_x="1230" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="1230" start_y="312" end_x="1294" end_y="312" />
+			<obstacle kind="18" start_x="1300" start_y="376" fliped="no" />
+			<obstacle kind="22" start_x="2470" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2470" start_y="312" end_x="2534" end_y="312" />
+			<obstacle kind="22" start_x="2570" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2570" start_y="312" end_x="2634" end_y="312" />
+			<obstacle kind="2" start_x="2660" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="1300" start_y="376" end_x="1320" end_y="220" />
+			<obstacle kind="0" start_x="1320" start_y="220" end_x="1460" end_y="210" />
+			<obstacle kind="0" start_x="1460" start_y="210" end_x="1460" end_y="180" />
+			<obstacle kind="0" start_x="1460" start_y="180" end_x="2450" end_y="180" />
+			<obstacle kind="0" start_x="4500" start_y="370" end_x="4500" end_y="178" />
+			<obstacle kind="6" start_x="4500" start_y="376"  />
+			<obstacle kind="6" start_x="4500" start_y="312"  />
+			<obstacle kind="6" start_x="4500" start_y="312"  />
+			<obstacle kind="6" start_x="4500" start_y="248"  />
+		</level>
+		
+		<!--1_BOMBER_APROBADO-->
+		<level number="12" goal_start_x="4000" goal_end_x="6510" prize="4000" tiles_count="12" bg="1114410" message="The big one!" >
+			<obstacle kind="2" start_x="2000" start_y="376" fliped="no" />
+			<obstacle kind="22" start_x="2220" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2220" start_y="312" end_x="2284" end_y="312" />
+			<obstacle kind="21" start_x="2300" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="2300" start_y="370" end_x="2300" end_y="220" />
+			<obstacle kind="0" start_x="2300" start_y="220" end_x="2370" end_y="180" />
+			<obstacle kind="0" start_x="2370" start_y="180" end_x="2450" end_y="165" />
+			<obstacle kind="0" start_x="2450" start_y="165" end_x="3450" end_y="165" />
+			<obstacle kind="0" start_x="3450" start_y="165" end_x="3550" end_y="145" />
+			<obstacle kind="0" start_x="3550" start_y="145" end_x="3640" end_y="110" />
+			<obstacle kind="0" start_x="3640" start_y="110" end_x="3716" end_y="56" />
+			<obstacle kind="0" start_x="3716" start_y="56" end_x="3816" end_y="-136" />
+			<obstacle kind="0" start_x="3816" start_y="-136" end_x="3930" end_y="-136" />
+			<obstacle kind="4" start_x="4500" start_y="376" fliped="yes" />
+			<obstacle kind="0" start_x="6500" start_y="370" end_x="6500" end_y="178" />
+			<obstacle kind="22" start_x="4100" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="4100" start_y="312" end_x="4164" end_y="312" />
+			<obstacle kind="22" start_x="4200" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="4200" start_y="312" end_x="4264" end_y="312" />
+			<obstacle kind="22" start_x="4300" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="4300" start_y="312" end_x="4364" end_y="312" />
+			<obstacle kind="22" start_x="4400" start_y="376" fliped="no" />
+			<obstacle kind="0" start_x="4400" start_y="312" end_x="4464" end_y="312" />
+			<obstacle kind="6" start_x="6500" start_y="376"  />
+			<obstacle kind="6" start_x="6500" start_y="312"  />
+			<obstacle kind="6" start_x="6500" start_y="312"  />
+			<obstacle kind="6" start_x="6500" start_y="248"  />
+		</level>
+		
+	</levels>
+	
+	<hints>
+		<hint text="Try to keep a good variety of bikes for diferent challenges"/>
+		<hint text="Upgrade your bike to take longer jumps"/>
+		<hint text="try diferent tricks and wheelies to get more customization points"/>
+		<hint text="take a good look at the track preview, customize the bike and then jump"/>
+		<hint text="try to keep spare cuatomization points, so you don't get stuck in an unbeatable track"/>
+		<hint text="always try to customize the bike to reach the landing ramp at full speed "/>
+	</hints>
+	
+	
+	<bikes>
+		<bike number="1" top_speed="2.4" top_rotation="75" acceleration="0.20"  floor_tolerance="20" weight="0.74" cost="0" />      
+		<bike number="2" top_speed="3.2" top_rotation="80" acceleration="0.23"  floor_tolerance="15" weight="0.64" cost="7" />
+		<bike number="3" top_speed="4.0" top_rotation="85" acceleration="0.26"  floor_tolerance="10" weight="0.54" cost="14" />
+	</bikes>
+	
+	<tricks>
+		<trick number="1" name="Bar rotation" top_rotation="55" prize="300" />
+		<trick number="2" name="Bike rotation" top_rotation="55" prize="400" />
+		<trick number="3" name="Lying" top_rotation="55" prize="300" />
+		<trick number="4" name="Standing" top_rotation="55" prize="350" />
+		<trick number="5" name="Superman" top_rotation="55" prize="250" />
+    </tricks>
+</data>
